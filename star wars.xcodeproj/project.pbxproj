@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191068DB21DA74E70040B402 /* GetPeopleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191068DA21DA74E70040B402 /* GetPeopleResponse.swift */; };
+		191068DD21DA76920040B402 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191068DC21DA76920040B402 /* NetworkingError.swift */; };
+		191068DF21DA77600040B402 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191068DE21DA77600040B402 /* Person.swift */; };
+		1913F14621DA97180000F347 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913F14521DA97180000F347 /* DetailVC.swift */; };
 		19B96DF421DA1E9E00B0C108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B96DF321DA1E9E00B0C108 /* AppDelegate.swift */; };
 		19B96DF621DA1E9E00B0C108 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B96DF521DA1E9E00B0C108 /* ViewController.swift */; };
 		19B96DF921DA1E9E00B0C108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B96DF721DA1E9E00B0C108 /* Main.storyboard */; };
 		19B96DFB21DA1EB500B0C108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B96DFA21DA1EB500B0C108 /* Assets.xcassets */; };
 		19B96DFE21DA1EB500B0C108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B96DFC21DA1EB500B0C108 /* LaunchScreen.storyboard */; };
+		19E350FB21DA3DA700361730 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E350FA21DA3DA700361730 /* NetworkingService.swift */; };
+		1BDB2B5B9D11D9F50760399F /* Pods_star_wars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93F441C98DCE466137871B0 /* Pods_star_wars.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		191068DA21DA74E70040B402 /* GetPeopleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPeopleResponse.swift; sourceTree = "<group>"; };
+		191068DC21DA76920040B402 /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		191068DE21DA77600040B402 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1913F14521DA97180000F347 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		19B96DF021DA1E9E00B0C108 /* star wars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "star wars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B96DF321DA1E9E00B0C108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19B96DF521DA1E9E00B0C108 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		19B96DFA21DA1EB500B0C108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19B96DFD21DA1EB500B0C108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19B96DFF21DA1EB500B0C108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E350FA21DA3DA700361730 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		86F129CC12B4968482E31EFF /* Pods-star wars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-star wars.release.xcconfig"; path = "Pods/Target Support Files/Pods-star wars/Pods-star wars.release.xcconfig"; sourceTree = "<group>"; };
+		B93F441C98DCE466137871B0 /* Pods_star_wars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_star_wars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFBD054532FD221C80757ED /* Pods-star wars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-star wars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-star wars/Pods-star wars.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDB2B5B9D11D9F50760399F /* Pods_star_wars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				19B96DF221DA1E9E00B0C108 /* star wars */,
 				19B96DF121DA1E9E00B0C108 /* Products */,
+				2F2EFA57A1F5D4B9F62C4E3F /* Pods */,
+				2C78A50E4D82035BE31CD268 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +74,33 @@
 				19B96DF321DA1E9E00B0C108 /* AppDelegate.swift */,
 				19B96DF521DA1E9E00B0C108 /* ViewController.swift */,
 				19B96DF721DA1E9E00B0C108 /* Main.storyboard */,
+				19E350FA21DA3DA700361730 /* NetworkingService.swift */,
+				191068DA21DA74E70040B402 /* GetPeopleResponse.swift */,
+				191068DE21DA77600040B402 /* Person.swift */,
+				191068DC21DA76920040B402 /* NetworkingError.swift */,
 				19B96DFA21DA1EB500B0C108 /* Assets.xcassets */,
 				19B96DFC21DA1EB500B0C108 /* LaunchScreen.storyboard */,
 				19B96DFF21DA1EB500B0C108 /* Info.plist */,
+				1913F14521DA97180000F347 /* DetailVC.swift */,
 			);
 			path = "star wars";
+			sourceTree = "<group>";
+		};
+		2C78A50E4D82035BE31CD268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B93F441C98DCE466137871B0 /* Pods_star_wars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F2EFA57A1F5D4B9F62C4E3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAFBD054532FD221C80757ED /* Pods-star wars.debug.xcconfig */,
+				86F129CC12B4968482E31EFF /* Pods-star wars.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19B96E0221DA1EB500B0C108 /* Build configuration list for PBXNativeTarget "star wars" */;
 			buildPhases = (
+				962C5122720FA0CCCDB0312D /* [CP] Check Pods Manifest.lock */,
 				19B96DEC21DA1E9E00B0C108 /* Sources */,
 				19B96DED21DA1E9E00B0C108 /* Frameworks */,
 				19B96DEE21DA1E9E00B0C108 /* Resources */,
+				3E5D20707B87D52E8823BEE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +171,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E5D20707B87D52E8823BEE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-star wars/Pods-star wars-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-star wars/Pods-star wars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962C5122720FA0CCCDB0312D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-star wars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19B96DEC21DA1E9E00B0C108 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191068DF21DA77600040B402 /* Person.swift in Sources */,
+				19E350FB21DA3DA700361730 /* NetworkingService.swift in Sources */,
 				19B96DF621DA1E9E00B0C108 /* ViewController.swift in Sources */,
+				191068DB21DA74E70040B402 /* GetPeopleResponse.swift in Sources */,
 				19B96DF421DA1E9E00B0C108 /* AppDelegate.swift in Sources */,
+				191068DD21DA76920040B402 /* NetworkingError.swift in Sources */,
+				1913F14621DA97180000F347 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +365,7 @@
 		};
 		19B96E0321DA1EB500B0C108 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFBD054532FD221C80757ED /* Pods-star wars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +384,7 @@
 		};
 		19B96E0421DA1EB500B0C108 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F129CC12B4968482E31EFF /* Pods-star wars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
